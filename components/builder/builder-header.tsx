@@ -1,5 +1,6 @@
 "use client";
 
+import { generatePDF } from "@/lib/pdf";
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
